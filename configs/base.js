@@ -818,7 +818,7 @@ module.exports = {
         // @fixable 禁止出现没必要的计算键名，比如 let a = { ['0']: 0 };
         'no-useless-computed-key': 2,
         // 禁止出现没必要的 constructor，比如 constructor(value) { super(value) }
-        'no-useless-constructor': 2,
+        'no-useless-constructor': 1,
         // @fixable 禁止解构时出现同样名字的的重命名，比如 let { foo: foo } = bar;
         'no-useless-rename': 2,
         // @fixable 禁止出现 var
