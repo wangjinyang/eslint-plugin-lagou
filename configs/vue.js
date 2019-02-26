@@ -7,6 +7,8 @@ module.exports = {
         'vue',
         'html'
     ],
+    // add more generic rulesets here, such as:
+    // 'eslint:recommended',
     rules: {
         'vue/html-indent': [2, 4, {
             'attribute': 1,
@@ -15,6 +17,5 @@ module.exports = {
             'alignAttributesVertically': true,
             'ignores': []
         }],
-        'vue/html-quotes': ['error', 'single']
     }
 };

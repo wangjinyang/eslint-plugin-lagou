@@ -1,5 +1,5 @@
 // https://eslint.org/docs/user-guide/configuring
-const baseConfig = require('./config/base')
+const baseConfig = require('./configs/base')
 module.exports = {
   root: true,
   parserOptions: {
