@@ -102,8 +102,6 @@ module.exports = {
         // /@fixable props 必须排好序
         // @off 没必要限制
         'react/jsx-sort-props': 0,
-        // tag结束前强制加一个换行
-        'react/jsx-space-before-closing': [2, 'always'],
         // tag开始和闭合空格限制
         'react/jsx-tag-spacing': [2, {
             'closingSlash': 'allow',
